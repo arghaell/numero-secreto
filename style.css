@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@200&display=swap");
+
+:root {
+  --font-family: "Ysabeau Office", sans-serif;
+  --primary-color: #f5efe7;
+  --bg-color: #4f709c;
+  font-size: 2em;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: var(--font-family);
+  gap: 0.5em;
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 1em;
+  padding: 1em;
+}
+
+#menor-valor {
+  font-size: 2em;
+}
+
+#maior-valor {
+  font-size: 2em;
+}
+
+.maior__valor {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+.box {
+  border: 2px solid var(--primary-color);
+  display: inline-block;
+  font-size: 3em;
+  padding: 0.25em;
+  margin: 20px;
+}
+
+.mensagem {
+  font-size: 1em;
+}
+
+.btn__jogar {
+  padding: 0.5em 1em;
+  border: 0;
+  background: var(--primary-color);
+  border-radius: 5px;
+  margin-top: 1.5em;
+}
